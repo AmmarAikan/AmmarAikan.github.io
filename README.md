@@ -15,3 +15,9 @@ This repository contains only sanitized professional material. Internal IP addre
 - `assets/socialguard-f1.png` - project evidence visual from the SocialGuard report
 
 The site is static and requires no build step.
+
+## Author and rights
+
+**Ammar Aikan** — Cybersecurity Student & Security Researcher
+
+© 2026 Ammar Aikan. All Rights Reserved. See [COPYRIGHT.md](COPYRIGHT.md).

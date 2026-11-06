@@ -13,5 +13,6 @@ This repository contains only sanitized professional material. Internal IP addre
 - `assets/app.js` - legacy navigation helper (the current page has no JavaScript dependency)
 - `assets/Ammar-Aikan-CV.pdf` - archived PDF; the page print action is the current CV source
 - `assets/socialguard-f1.png` - project evidence visual from the SocialGuard report
+- `assets/reports/` - permanently sanitized public portfolio reports, including the co-authored Veeam backup and recovery lab
 
 The site is static and requires no build step. Use **Print / Save CV** in the page to create a current PDF.

@@ -24,7 +24,7 @@ if len(sys.argv)>1:
  base=sys.argv[1].rstrip('/')+'/'
  for attempt in range(8):
   try:
-   for name in ['index.html','assets/cv/Ammar_Aikan_ATS_CV.pdf']:
+   for name in ['index.html','assets/cv/Ammar_Aikan_ATS_CV.pdf'] + [x.relative_to(root).as_posix() for x in root.glob('assets/reports/*Public_Portfolio_Edition.pdf')]:
     with urllib.request.urlopen(base+name+'?verify='+str(time.time_ns()),timeout=20) as r:data=r.read()
     expected=(root/name).read_bytes()
     assert hashlib.sha256(data).digest()==hashlib.sha256(expected).digest(),'Live content differs: '+name
